@@ -12,30 +12,30 @@ export const features = [
     title: "Smart Authentication",
     description: "Advanced cryptographic verification ensures only authorized users can access and modify ownership records.",
     icon: <Shield className="w-6 h-6" />,
-    image: "/src/assets/digital-security.jpg"
+    image: "/digital-security.jpg"
   },
   {
     title: "Tamper-Proof Tags",
     description: "Physical tags with unique signatures that detect any attempts at removal or tampering.",
     icon: <Lock className="w-6 h-6" />,
-    image: "/src/assets/tech-code.jpg"
+    image: "/tech-code.jpg"
   },
   {
     title: "Instant Verification",
     description: "Real-time ownership verification through mobile app scanning and web-based authentication.",
     icon: <Zap className="w-6 h-6" />,
-    image: "/src/assets/innovation-bulb.jpg"
+    image: "/innovation-bulb.jpg"
   },
   {
     title: "Transparent Tracking",
     description: "Complete audit trail of all ownership transfers and authenticity verifications.",
     icon: <Eye className="w-6 h-6" />,
-    image: "/src/assets/digital-security.jpg"
+    image: "/digital-security.jpg"
   },
   {
     title: "Premium Protection",
     description: "Enterprise-grade security for high-value assets including art, jewelry, electronics, and collectibles.",
     icon: <Award className="w-6 h-6" />,
-    image: "/src/assets/blockchain-circuit.jpg"
+    image: "/blockchain-circuit.jpg"
   }
 ];
