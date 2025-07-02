@@ -1,4 +1,3 @@
-
 import { motion } from "framer-motion";
 import { ArrowRight, Shield, Zap, Lock } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -83,22 +82,13 @@ const Index = () => {
           </motion.div>
         </div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.6 }}
-          className="relative mx-auto max-w-5xl mt-20"
-        >
-          <div className="glass rounded-xl overflow-hidden">
-            <div className="bg-gradient-to-br from-primary/20 to-purple-500/20 p-8 h-64 flex items-center justify-center">
-              <div className="text-center">
-                <Shield className="w-16 h-16 text-primary mx-auto mb-4" />
-                <h3 className="text-xl font-semibold mb-2">Blockchain + Physical Tags</h3>
-                <p className="text-gray-300">Secure ownership verification system</p>
-              </div>
-            </div>
-          </div>
-        </motion.div>
+        <div className="flex justify-center mt-20">
+          <img 
+            src="/proof.png" 
+            alt="Proof of Ownership Example" 
+            className="rounded-xl shadow-lg max-w-full h-[32rem] object-contain bg-black/40"
+          />
+        </div>
       </motion.section>
 
       {/* What is Immutag Section */}

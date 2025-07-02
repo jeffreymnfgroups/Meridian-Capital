@@ -1,4 +1,3 @@
-
 import { motion } from "framer-motion";
 import { Tag, Shield, Database, Smartphone, Lock, Eye } from "lucide-react";
 import Navigation from "@/components/Navigation";
@@ -123,13 +122,18 @@ const HowItWorks = () => {
                 
                 {/* Visual */}
                 <div className={index % 2 === 1 ? 'lg:col-start-1' : ''}>
-                  <div className="glass rounded-xl p-8 h-80 flex items-center justify-center">
-                    <div className="text-center">
-                      <div className="p-8 rounded-full bg-primary/20 text-primary mx-auto mb-4">
-                        {step.icon}
-                      </div>
-                      <h4 className="text-xl font-semibold">{step.title}</h4>
-                    </div>
+                  <div className="glass rounded-xl overflow-hidden h-80">
+                    <img 
+                      src={
+                        index === 0 
+                          ? "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop&crop=center" 
+                          : index === 1 
+                          ? "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=600&h=400&fit=crop&crop=center"
+                          : "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop&crop=center"
+                      }
+                      alt={step.title}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </div>
               </div>

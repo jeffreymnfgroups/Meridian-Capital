@@ -1,31 +1,30 @@
-
 import { motion } from "framer-motion";
 
 export const SupportedDevicesSection = () => {
   const devices = [
     {
       name: "Smartphones",
-      image: "/lovable-uploads/5830bd79-3511-41dc-af6c-8db32d91fc2c.png",
+      image: "/iphone.png",
       description: "iOS & Android"
     },
     {
       name: "Tablets",
-      image: "/lovable-uploads/bb50362c-6879-4868-bbc9-c6e051fd8d7d.png",
+      image: "/ipad.png",
       description: "iPad & Android"
     },
     {
       name: "Desktop",
-      image: "/lovable-uploads/1e2a48dc-059b-4919-a1ed-44685d771a32.png",
+      image: "/desktop.png",
       description: "Windows & Mac"
     },
     {
       name: "Web Browser",
-      image: "/lovable-uploads/bf56a0c6-48e4-49f7-b286-8e3fda9a3385.png",
+      image: "/desktop.png",
       description: "All major browsers"
     },
     {
       name: "NFC Tags",
-      image: "/lovable-uploads/7cc724d4-3e14-4e7c-9e7a-8d613fde54d0.png",
+      image: "/nfc.png",
       description: "Physical tags"
     }
   ];
@@ -59,7 +58,7 @@ export const SupportedDevicesSection = () => {
               <img
                 src={device.image}
                 alt={device.name}
-                className="w-12 h-12 mx-auto object-contain filter brightness-0 invert opacity-70"
+                className="w-12 h-12 mx-auto object-contain"
               />
             </div>
             <h3 className="text-lg font-semibold mb-2">{device.name}</h3>

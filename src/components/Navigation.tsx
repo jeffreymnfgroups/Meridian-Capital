@@ -45,11 +45,10 @@ const Navigation = () => {
         <nav className="flex items-center justify-between h-full">
           <Link to="/" className="flex items-center gap-2">
             <img 
-              src="/lovable-uploads/e0c0a297-5d72-4b3b-b41b-90e459ef79c3.png" 
+              src="/immuateable.png" 
               alt="Immutag Logo" 
               className="h-6 w-auto"
             />
-            <span className="font-bold text-base text-gradient">Immutag</span>
           </Link>
 
           {/* Desktop Navigation */}
