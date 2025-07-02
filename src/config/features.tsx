@@ -6,7 +6,7 @@ export const features = [
     title: "Blockchain Registry",
     description: "Immutable ownership records stored on decentralized blockchain infrastructure for maximum security and permanence.",
     icon: <Database className="w-6 h-6" />,
-    image: "/src/assets/blockchain-circuit.jpg"
+    image: "/blockchain-circuit.jpg"
   },
   {
     title: "Smart Authentication",
